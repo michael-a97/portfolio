@@ -4,7 +4,7 @@ import * as React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="bg-gray-100 grid lg:grid-cols-3 md:grid-cols-1 pt-8">
+      <div className="bg-gray-100 grid lg:grid-cols-3 md:grid-cols-1 pt-8 min-h-[40vh] j items-end">
         <div className="flex justify-end">
           <StaticImage
             src="../../images/hero.png"
@@ -13,7 +13,7 @@ const Hero = () => {
           />
         </div>
 
-        <div className="mt-8 lg:mx-0 col-span-2  text-center lg:text-left">
+        <div className="mt-8 lg:mx-0 col-span-2  mb-8 text-center lg:text-left">
           <h1 className="text-7xl font-extrabold">
             Michael <br />
             Asnake

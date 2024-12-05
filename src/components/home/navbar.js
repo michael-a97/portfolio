@@ -5,7 +5,7 @@ const NavBar = () => {
     <nav className="flex flex-row justify-between p-4 bg-gray-100 items-center">
       <div className="flex-none">MAB</div>
       <div className="flex flex-row justify-end">
-        <a href="/about" className="p-2 font-medium">
+        <a href="#skills" className="p-2 font-medium">
           Skills
         </a>
         <a href="/about" className="p-2 font-medium">
